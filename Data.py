@@ -10,24 +10,22 @@ Welcome to {}
 
 You can use me to rename documents and files with certain other features. Use `/help` to learn how !
 
-By @StarkBots
+By @CyniteBots
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
+        [InlineKeyboardButton(text="🏠 ʀᴇᴛᴜʀɴ ʜᴏᴍᴇ 🏠", callback_data="home")],
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("✨ sᴜᴘᴘᴏʀᴛ ✨", url="https://t.me/CyniteOfficial")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("ʜᴇʟᴘ❔", callback_data="help"),
+            InlineKeyboardButton("🎪 ᴀʙᴏᴜᴛ 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
-    ]
+        [InlineKeyboardButton("🤖ᴜᴘᴅᴀᴛᴇs🤖", url="https://t.me/StarkBots")],]
 
     # Help Message
     HELP = """
@@ -49,13 +47,13 @@ Just send a document / video to start renaming. Then when asked, give the new na
     ABOUT = """
 **About This Bot** 
 
-A telegram rename bot by @StarkBots
+A telegram rename bot by @CyniteBotsBots
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/RenameTelegramBot)
+Source Code : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/CyniteOfficial)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Developer : @CyniteOfficial
     """
